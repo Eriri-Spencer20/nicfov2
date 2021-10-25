@@ -13,8 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [homecontroller::class, 'index'], function () {
-[
+Route::get('/', [homecontroller::class, 'home'], function () {[
 "title" => "Home"
+ ];      
+});
+Route::get('/about', [homecontroller::class, 'about'], function () {[
+"title" => "About"
+ ];      
+});
+Route::get('/profile', [homecontroller::class, 'profile'], function () {[
+"title" => "profile"
+ ];      
+});
+Route::get('/pegawai', [homecontroller::class, 'pegawai'], function () {[
+"title" => "pegawai"
  ];      
 });

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title class="uppercase">Nicfo | {{ $title }}</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
@@ -14,7 +14,7 @@
         <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
                 <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-                    href="#">NIcfo</a>
+                    href="/">NIcfo</a>
                 <button
                     class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                     type="button">
@@ -27,19 +27,19 @@
                 <ul class="flex flex-col lg:flex-row list-none ml-auto ">
                     <li class="nav-item">
                         <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                            href="#pablo">
-                            profil
+                            href="/profile">
+                            profile
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                            href="#pablo">
+                            href="/about">
                             about 
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                            href="#pablo">
+                            href="/pegawai">
                             Data Kepegawaian
                         </a>
                     </li>
